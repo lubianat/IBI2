@@ -7,8 +7,8 @@ def plot_decision_regions(X, y, classifier, resolution=0.02, classes=None):
 		classes = np.unique(y)
 
 	# setup marker generator and color map
-	markers = ("s", "x", "o", "^", "v")
-	colors = ("red", "blue", "lightgreen", "gray", "cyan")
+	markers = ("s", "x", "o", "^", "v", "o")
+	colors = ("red", "blue", "lightgreen", "gray", "cyan","yellow")
 	cmap = ListedColormap(colors[:len(np.unique(y))])
 
 	# plot the decision surface
